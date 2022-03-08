@@ -1,0 +1,156 @@
+:root {
+    --font-one: 'PT Serif', serif;
+    --font-two: 'Poppins', sans-serif;
+    --font-three: 'Montserrat', sans-serif;
+
+    font-size: 10px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Resets */
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    padding: 5rem 25% 5rem 3%;
+}
+
+header>h1 {
+    margin-bottom: 2rem;
+    font-family: var(--font-one);
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+header>div {
+    font-family: var(--font-two);
+    max-width: 50rem;
+}
+
+header>div>h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+header>div>p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px 30px;
+    grid-auto-flow: row;
+    justify-items: center;
+
+
+}
+
+section>figure {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    position: relative;
+}
+
+section>figure:nth-child(even) {
+    transform: translateY(25%);
+}
+
+
+section>figure>img {
+    width: 90%;
+    height: auto;
+}
+
+section>figure>figcaption>h3 {
+    margin-top: 1rem;
+    font-family: var(--font-two);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+section>figure>figcaption>span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    writing-mode: vertical-lr;
+    font-family: var(--font-one);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+footer {
+    margin: 12.5rem 0 1rem 0;
+    text-align: center;
+    font-family: var(--font-three);
+    font-size: 1.4rem;
+    color: lightgrey;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: start;
+        padding: 7.5rem 15% 7.5rem 15%;
+    }
+
+    header>h1, header>div {
+        width: 50%;
+    }
+
+    header>div {
+        padding: 0 10% 0 0;
+    }
+
+    header>div>p {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 0 15%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    section>figure:nth-child(even) {
+        transform: translateY(0);
+    }
+
+    section>figure:nth-child(3n + 2) {
+        transform: translateY(25%);
+    }
+
+}
