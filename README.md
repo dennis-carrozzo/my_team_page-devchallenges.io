@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://404page-devchallengesdotio.netlify.app/">
+    <a href="https://my-team-page-devchallenges-io.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/denniswebdel/404_page-devchallenges.io.git">
+    <a href="https://github.com/dennis-carrozzo/my_team_page-devchallenges.io">
       Code
     </a>
     <span> | </span>
@@ -27,28 +27,22 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://404page-devchallengesdotio.netlify.app/assets/screenshot.jpg)
+![screenshot](/assets/my-team-page.png)
 
-Simple Team page build with just html and css from figma design.
-The Demo of this project is hosted on Netlify and the code on Github.
+Simple Team page build with plain html and css from figma design.
 
 ### Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### Hosted On
-
-- [Netlify](https://www.netlify.com/)
-
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/70397af5-abc7-4df6-b0ee-b1088f9c5737/deploy-status)](https://app.netlify.com/sites/404page-devchallengesdotio/deploys)
 
 ## Features
 
@@ -57,6 +51,10 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Acknowledgements
 
-
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+
+## Contact
+
+- Website [dennisfullstack.dev](https://dennisfullstack.dev)
+- GitHub [@ednnis-carrozzo](https://github.com/dennis-carrozzo)
+- LinkedIn [@dennis-carrozzo](https://www.linkedin.com/in/dennis-carrozzo/)
